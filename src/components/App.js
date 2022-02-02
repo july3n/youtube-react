@@ -6,7 +6,7 @@ import useVideos from '../hooks/useVideos';
 
 const App = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
-  const [videos, search] = useVideos('Gücüne güç');
+  const [videos, search] = useVideos('pentagram');
 
   useEffect(() => {
     setSelectedVideo(videos[0]);
